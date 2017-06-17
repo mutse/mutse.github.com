@@ -221,248 +221,1239 @@
 
 <!-- Layouts -->
 
-    <!-- Post Module -->
-    <div class="material-post_container">
+    <!-- Single Todo Page -->
+    <style>
+    .md-todo {
+        min-height: calc(100% - 120px - 5pc - 6em);
+        text-align: center;
+        overflow: auto;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 320px;
+    }
 
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    @media screen and (min-width: 640px) {
+        .md-todo {
+            max-width: 640px;
+        }
+    }
 
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
+    @media screen and (min-width: 960px) {
+        .md-todo {
+            max-width: 960px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .md-todo {
+            max-width: 1280px;
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+        .md-todo {
+            max-width: 1600px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .md-todo {
+            min-height: calc(100% - 200px - 5pc - 6em);
+            margin-top: 6em;
+        }
+    }
+
+    .md-todo-item {
+        background: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        height: 96px;
+        line-height: 15px;
+        margin: 20px 10px;
+        padding: 0px 0px;
+        transition: box-shadow 0.25s;
+    }
+
+    .md-todo a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .md-todo li {
+        width: 300px;
+        float: left;
+        list-style: none;
+    }
+
+    .md-todo-item img {
+        float: left;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 11px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    }
+
+    .md-todo-item:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .md-todo-item a:hover{
+        cursor: pointer;
+    }
+
+    .md-todo-title {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #scheme-Paradox .mdl-mini-footer{
+        clear: left;
+    }
+    #bottom{
+        position: relative;
+    }
+</style>
+
+
     
         
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script>
-    var randomNum = Math.floor(Math.random() * 19 + 1);
-
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
-
         
-    
-            <p class="article-headline-p">
-                TODO
-            </p>
-        </div>
+            
+                  
+                  <center><h3>Reading &amp; Books</h3></center> <br />
+                  
+                    
+                    <ul class="md-todo">
+                  
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/3026879/" title="爱的艺术" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s2990934.jpg" alt="爱的艺术" width="72px"/>
+                    <span class="md-todo-title">爱的艺术</span><br />
+                    <span> 爱是一门艺术 </span><br />
+                    
+                      
+                       <span><input type="checkbox" disabled> 在读</span>
+                      
+                    
 
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/2240757/" title="孤独六讲" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s2680136.jpg" alt="孤独六讲" width="72px"/>
+                    <span class="md-todo-title">孤独六讲</span><br />
+                    <span> 台湾蒋勋的《孤独六讲》 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/20471127/" title="给你爱的人以自由" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s25117422.jpg" alt="给你爱的人以自由" width="72px"/>
+                    <span class="md-todo-title">给你爱的人以自由</span><br />
+                    <span> 作者：冉云飞 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/3542212/" title="C++编程思想" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s3602684.jpg" alt="C++编程思想" width="72px"/>
+                    <span class="md-todo-title">C++编程思想</span><br />
+                    <span> 第六版，英文 </span><br />
+                    
 
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/1915868/" title="Python 编程" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s2396946.jpg" alt="Python 编程" width="72px"/>
+                    <span class="md-todo-title">Python 编程</span><br />
+                    <span> 第三版 </span><br />
+                    
 
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/20429677/" title="大数据时代" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s24574862.jpg" alt="大数据时代" width="72px"/>
+                    <span class="md-todo-title">大数据时代</span><br />
+                    <span> 大数据 </span><br />
+                    
 
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>Mutse Young</strong>
-        <span>2月 14, 2015</span>
-    </div>
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/1130367/" title="艽野尘梦" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s6969093.jpg" alt="艽野尘梦" width="72px"/>
+                    <span class="md-todo-title">艽野尘梦</span><br />
+                    <span> 陈渠珍著，湘西王的高原爱情故事 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
-    <div class="section-spacer"></div>
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/3071235/" title="如果这是宋史" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s3085814.jpg" alt="如果这是宋史" width="72px"/>
+                    <span class="md-todo-title">如果这是宋史</span><br />
+                    <span> 大话宋史 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/7564417/" title="Linux/Unix 设计思想" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s9022362.jpg" alt="Linux/Unix 设计思想" width="72px"/>
+                    <span class="md-todo-title">Linux/Unix 设计思想</span><br />
+                    <span> Linux/Unix 设计哲学 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
-    <!-- Qrcode -->
-    
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/6021440/" title="黑客与画家" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s4669554.jpg" alt="黑客与画家" width="72px"/>
+                    <span class="md-todo-title">黑客与画家</span><br />
+                    <span> 阮一峰译：黑客、画家 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
 
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/25881855/" title="大教堂与集市" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s28026215.jpg" alt="大教堂与集市" width="72px"/>
+                    <span class="md-todo-title">大教堂与集市</span><br />
+                    <span> 大教堂、集市 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/22139031/" title="像唐诗一样生活" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s26098660.jpg" alt="像唐诗一样生活" width="72px"/>
+                    <span class="md-todo-title">像唐诗一样生活</span><br />
+                    <span> 冉云飞著：唐诗、生活 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/6784039/" title="你若安好便是晴天" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s6877731.jpg" alt="你若安好便是晴天" width="72px"/>
+                    <span class="md-todo-title">你若安好便是晴天</span><br />
+                    <span> 林徽因传 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/25881855/" title="复活" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s28026215.jpg" alt="复活" width="72px"/>
+                    <span class="md-todo-title">复活</span><br />
+                    <span> 托尔斯泰著：小说 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/1321543/" title="红楼梦" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s6140903.jpg" alt="红楼梦" width="72px"/>
+                    <span class="md-todo-title">红楼梦</span><br />
+                    <span> 曹雪芹著：四大名著 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/3674537/" title="明朝那些事" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s3745215.jpg" alt="明朝那些事" width="72px"/>
+                    <span class="md-todo-title">明朝那些事</span><br />
+                    <span> 大话历史 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/5366248/" title="极简欧洲史" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s4542951.jpg" alt="极简欧洲史" width="72px"/>
+                    <span class="md-todo-title">极简欧洲史</span><br />
+                    <span> 为什么欧洲对现代文明影响这么深 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 已读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/11601993/" title="安静.内向性格的竞争力" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s11329691.jpg" alt="安静.内向性格的竞争力" width="72px"/>
+                    <span class="md-todo-title">安静.内向性格的竞争力</span><br />
+                    <span> 内向性格的竞争力 </span><br />
+                    
+                      
+                       <span><input type="checkbox" disabled> 在读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/26297606/" title="从0到1" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s28012945.jpg" alt="从0到1" width="72px"/>
+                    <span class="md-todo-title">从0到1</span><br />
+                    <span> 开启商业未来的秘密 </span><br />
+                    
+                      
+                       <span><input type="checkbox" disabled> 在读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/20480879/" title="思考的艺术" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s29303820.jpg" alt="思考的艺术" width="72px"/>
+                    <span class="md-todo-title">思考的艺术</span><br />
+                    <span> 思考也是一门艺术 </span><br />
+                    
+                      
+                       <span><input type="checkbox" disabled> 在读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://book.douban.com/subject/26602146/" title="程序员之禅" target="_blank">
+                    <img src="https://img3.doubanio.com/lpic/s28316991.jpg" alt="程序员之禅" width="72px"/>
+                    <span class="md-todo-title">程序员之禅</span><br />
+                    <span> 程序员 &amp; 禅 </span><br />
+                    
+                      
+                        <span><input type="checkbox" disabled checked> 在读</span>
+                      
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+                  
+                       
+                      </ul>
+                  
+                  <center><h3>Anime &amp; Films</h3></center> <br />
+                  
+                    
+                    <ul class="md-todo">
+                  
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/7054604/" title="变形金刚4" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2187231762.webp" alt="变形金刚4" width="72px"/>
+                    <span class="md-todo-title">变形金刚4</span><br />
+                    <span> 绝迹重生 Age of Extinction </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/2124724/" title="不能说的秘密" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2356120793.webp" alt="不能说的秘密" width="72px"/>
+                    <span class="md-todo-title">不能说的秘密</span><br />
+                    <span> 音乐爱情故事 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/24859795/" title="大力神" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2176698184.webp" alt="大力神" width="72px"/>
+                    <span class="md-todo-title">大力神</span><br />
+                    <span> 宙斯之子 </span><br />
+                    
+
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/3071441/" title="雪国列车" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2173648321.webp" alt="雪国列车" width="72px"/>
+                    <span class="md-todo-title">雪国列车</span><br />
+                    <span> 雪国列车 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/24404677/" title="超体" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2204643974.webp" alt="超体" width="72px"/>
+                    <span class="md-todo-title">超体</span><br />
+                    <span> 科幻 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/1889243/" title="星际穿越" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p2207216219.webp" alt="星际穿越" width="72px"/>
+                    <span class="md-todo-title">星际穿越</span><br />
+                    <span> 星际旅行、黑洞 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/6791750/" title="起风了" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p1996151187.webp" alt="起风了" width="72px"/>
+                    <span class="md-todo-title">起风了</span><br />
+                    <span>  </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/2973079/" title="霍比特人3" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p2219894738.webp" alt="霍比特人3" width="72px"/>
+                    <span class="md-todo-title">霍比特人3</span><br />
+                    <span> 五军之战 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/6875263/" title="灰姑娘" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2225427112.webp" alt="灰姑娘" width="72px"/>
+                    <span class="md-todo-title">灰姑娘</span><br />
+                    <span> Cinderella </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/20277632/" title="飓风营救3" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p2224368429.webp" alt="飓风营救3" width="72px"/>
+                    <span class="md-todo-title">飓风营救3</span><br />
+                    <span> 特工拯救女儿 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/25945114/" title="天使与龙的轮舞" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2435315900.webp" alt="天使与龙的轮舞" width="72px"/>
+                    <span class="md-todo-title">天使与龙的轮舞</span><br />
+                    <span> 天使、龙、Villkiss 战机 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/26220737/" title="圣斗士星矢.黄金魂" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2238020136.webp" alt="圣斗士星矢.黄金魂" width="72px"/>
+                    <span class="md-todo-title">圣斗士星矢.黄金魂</span><br />
+                    <span> 圣斗士星失 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/23761370/" title="速度与激情7" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2237110306.webp" alt="速度与激情7" width="72px"/>
+                    <span class="md-todo-title">速度与激情7</span><br />
+                    <span> 速度与激情 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/25769362/" title="Doraemon Stand By Me" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2246476513.webp" alt="Doraemon Stand By Me" width="72px"/>
+                    <span class="md-todo-title">Doraemon Stand By Me</span><br />
+                    <span> 哆啦 A 梦伴我同行 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/10440138/" title="侏罗纪世界" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2246217861.webp" alt="侏罗纪世界" width="72px"/>
+                    <span class="md-todo-title">侏罗纪世界</span><br />
+                    <span> 侏罗纪 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/photos/photo/2248898699/" title="机械姬" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p2248898699.webp" alt="机械姬" width="72px"/>
+                    <span class="md-todo-title">机械姬</span><br />
+                    <span> Ex Machina </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/24405378/" title="王牌特工" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2231932406.webp" alt="王牌特工" width="72px"/>
+                    <span class="md-todo-title">王牌特工</span><br />
+                    <span> Kingsman </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/26277313/" title="大圣归来" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2253659334.webp" alt="大圣归来" width="72px"/>
+                    <span class="md-todo-title">大圣归来</span><br />
+                    <span> 齐天大圣 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/11026735/" title="超能陆战队" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2228556541.webp" alt="超能陆战队" width="72px"/>
+                    <span class="md-todo-title">超能陆战队</span><br />
+                    <span> 大白 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/10562987/" title="美女与野兽" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2169635004.webp" alt="美女与野兽" width="72px"/>
+                    <span class="md-todo-title">美女与野兽</span><br />
+                    <span> 现代版童话 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/photos/photo/2459723975/" title="加勒比海盗5" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2459723975.webp" alt="加勒比海盗5" width="72px"/>
+                    <span class="md-todo-title">加勒比海盗5</span><br />
+                    <span> 死无对证 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/26387939/" title="摔跤吧！爸爸" target="_blank">
+                    <img src="https://img3.doubanio.com/view/photo/photo/public/p2458825426.webp" alt="摔跤吧！爸爸" width="72px"/>
+                    <span class="md-todo-title">摔跤吧！爸爸</span><br />
+                    <span> 我和我的冠军女儿 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                    
+                </a>
+            </li>
+        
+            
+            <li class="md-todo-item">
+                <a href="https://movie.douban.com/subject/20451290/?from=showing" title="新木乃伊" target="_blank">
+                    <img src="https://img1.doubanio.com/view/photo/photo/public/p2459198108.webp" alt="新木乃伊" width="72px"/>
+                    <span class="md-todo-title">新木乃伊</span><br />
+                    <span> 木乃伊 </span><br />
+                    
+
+                    
+                        
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9733;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                          
+                            <span>&#9734;</span>
+                          
+                        
+                    
+                </a>
+            </li>
         
     </ul>
     
 
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
 
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=TODO&url=http://mutse.github.io//todo/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=TODO&url=http://mutse.github.io//todo/index.html&via=Mutse Young" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://mutse.github.io//todo/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://mutse.github.io//todo/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p><input type="checkbox" disabled checked> <s>台湾蒋勋的《孤独六讲》</s></p>
-<p><input type="checkbox" disabled checked> <s>冉云飞的《给你爱的人以自由》</s></p>
-<p><input type="checkbox" disabled>C++编程思想（第六版，英文）</p>
-<p><input type="checkbox" disabled>Python 编程（第三版）</p>
-<p><input type="checkbox" disabled>大数据时代</p>
-<p><input type="checkbox" disabled checked> <s>陈渠珍著《艽野尘梦》</s></p>
-<p><input type="checkbox" disabled checked> <s>《如果这是宋史》</s></p>
-<p><input type="checkbox" disabled checked><s>Linux/Unix 设计思想</s></p>
-<p><input type="checkbox" disabled checked> <s>阮一峰译《黑客与画家》</s></p>
-<p><input type="checkbox" disabled checked>大教堂与集市</p>
-<p><input type="checkbox" disabled checked>像唐诗一样生活</p>
-<p><input type="checkbox" disabled checked> <s>你若安好便是晴天：林徽因传</s></p>
-<p><input type="checkbox" disabled checked> <s>复活</s></p>
-<p><input type="checkbox" disabled checked> <s>红楼梦</s></p>
-<p><input type="checkbox" disabled checked> <s>明朝那些事</s></p>
-<p><input type="checkbox" disabled>史记</p>
-<p><input type="checkbox" disabled checked> <s>极简欧洲史</s></p>
-<p><input type="checkbox" disabled checked>安静.内向性格的竞争力</p>
-<p><input type="checkbox" disabled checked>从0到1</p>
-<p><input type="checkbox" disabled>思考的艺术</p>
-<p><input type="checkbox" disabled>程序员之禅</p>
-<p><input type="checkbox" disabled>爱的艺术</p>
-<h3 id="动漫和电影"><a href="#动漫和电影" class="headerlink" title="动漫和电影"></a>动漫和电影</h3><p><input type="checkbox" disabled checked> <s>变形金刚4</s></p>
-<p><input type="checkbox" disabled checked> <s>不能说的秘密</s></p>
-<p><input type="checkbox" disabled checked> <s>大力神</s></p>
-<p><input type="checkbox" disabled checked> <s>雪国列车</s></p>
-<p><input type="checkbox" disabled checked> <s>超体</s></p>
-<p><input type="checkbox" disabled checked> <s>星际穿越</s></p>
-<p><input type="checkbox" disabled checked> <s>宫崎骏【起风了】</s></p>
-<p><input type="checkbox" disabled checked> <s>霍比特人3.五军之战</s></p>
-<p><input type="checkbox" disabled checked> <s>灰姑娘</s></p>
-<p><input type="checkbox" disabled checked> <s>飓风营救3</s></p>
-<p><input type="checkbox" disabled checked> <s>天使与龙的轮舞</s></p>
-<p><input type="checkbox" disabled checked><s>圣斗士星矢.黄金魂</s></p>
-<p><input type="checkbox" disabled checked> <s>速度与激情7</s></p>
-<p><input type="checkbox" disabled checked> <s>Doraemon Stand By Me</s></p>
-<p><input type="checkbox" disabled checked> <s>侏罗纪世界</s></p>
-<p><input type="checkbox" disabled checked> <s>机械姬 July 4th, 2015</s></p>
-<p><input type="checkbox" disabled checked> <s>王牌特工</s></p>
-<p><input type="checkbox" disabled checked> <s>银河护卫队</s></p>
-<p><input type="checkbox" disabled checked> <s>大圣归来 July 15th, 2015</s></p>
-<p><input type="checkbox" disabled checked> <s>超能陆战队 July 18th, 2015</s></p>
-<p><input type="checkbox" disabled checked> <s>美女与野兽 July 22th, 2015</s></p>
-<p><input type="checkbox" disabled checked> <s>模仿游戏 Aug 15th, 2015</s></p>
-<p><input type="checkbox" disabled checked><s>Terminator Genisys Aug 23th, 2015</s></p>
-<p><input type="checkbox" disabled checked><s>碟中谍5</s></p>
-<p><input type="checkbox" disabled checked><s>ANT MAN</s></p>
-<p><input type="checkbox" disabled checked><s>火星救援</s></p>
-<p><input type="checkbox" disabled checked><s>我的少女时代</s></p>
-<p><input type="checkbox" disabled checked><s>星球大战.原力觉醒</s></p>
-<p><input type="checkbox" disabled checked><s>美人鱼 Feb 21th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>ZooTopia March 6th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>Steve Jobs March 21th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>缘分 April 3th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>功夫熊猫3 May 14th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>爱丽丝梦游仙境2：镜中奇遇记 June 5th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>伦敦沦落 June 10th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>大鱼海棠 July 16th, 2016</s></p>
-<p><input type="checkbox" disabled checked><s>爱乐之城 March 21th, 2017</s></p>
-<p><input type="checkbox" disabled checked><s>银河护卫队2 May 20th, 2017</s></p>
-<p><input type="checkbox" disabled checked><s>加勒比海盗5 May 27th, 2017</s></p>
-<h3 id="旅行足迹"><a href="#旅行足迹" class="headerlink" title="旅行足迹"></a>旅行足迹</h3><p><input type="checkbox" disabled checked> <s>2008.5 重庆</s></p>
-<p><input type="checkbox" disabled checked> <s>2008.7-2010.5 珠海</s></p>
-<p><input type="checkbox" disabled checked> <s>2009.5 湘西凤凰</s></p>
-<p><input type="checkbox" disabled checked> <s>2010.1.1 澳门</s></p>
-<p><input type="checkbox" disabled checked> <s>2010.7-2014.10 深圳</s></p>
-<p><input type="checkbox" disabled checked> <s>2011.6.4 香港</s></p>
-<p><input type="checkbox" disabled checked> <s>2012.4 杭州、南京</s></p>
-<p><input type="checkbox" disabled checked> <s>2013.11 北京、洛阳、华山、西安</s></p>
-<p><input type="checkbox" disabled checked> <s>2014.5 宜昌三峡</s></p>
-<p><input type="checkbox" disabled>台湾</p>
-<p><input type="checkbox" disabled>西藏</p>
-<p><input type="checkbox" disabled>上海</p>
-
-    
-
-    
-</div>
+<script>
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
 
 
-                
-
-                <!-- Post Comments -->
-                
-                    
-
-
-
-
-
-
-
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-</nav>
-
-        </div>
-    </div>
 
 
 
@@ -551,6 +1542,23 @@
 
     <!-- Categories  -->
     
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/c/">c<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/categories/git/">git<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/misc/">misc<span class="sidebar_archives-count">26</span></a></li><li><a class="sidebar_archives-link" href="/categories/pyqt/">pyqt<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/categories/python/">python<span class="sidebar_archives-count">9</span></a></li><li><a class="sidebar_archives-link" href="/categories/qt/">qt<span class="sidebar_archives-count">7</span></a></li><li><a class="sidebar_archives-link" href="/categories/touch/">touch<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/ubuntu/">ubuntu<span class="sidebar_archives-count">16</span></a>
+            </ul>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
 
     <!-- Pages  -->
     
@@ -573,9 +1581,19 @@
             </a>
         </li>
         
+            <li class="divider"></li>
+        
     
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">69</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -597,13 +1615,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Theme Material -->
-
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            主题 - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
 
 
 <!-- Help & Support -->
