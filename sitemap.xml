@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mutse.github.io/2024/01/31/ai-photos/</loc>
+    <loc>http://mutse.github.io/about/index.html</loc>
     
     <lastmod>2024-02-17</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/about/index.html</loc>
+    <loc>http://mutse.github.io/2024/01/31/ai-photos/</loc>
     
-    <lastmod>2023-10-06</lastmod>
+    <lastmod>2024-02-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2013/04/30/clickablelabel-with-pyqt4/</loc>
+    <loc>http://mutse.github.io/2010/09/12/build-objc-dev-on-ubuntu-10-04/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2010/09/12/build-objc-dev-on-ubuntu-10-04/</loc>
+    <loc>http://mutse.github.io/2013/04/30/clickablelabel-with-pyqt4/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2013/01/14/howto-build-py-app-with-autotools/</loc>
+    <loc>http://mutse.github.io/2013/06/15/howto-call-qml-with-pyqt4/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2013/06/15/howto-call-qml-with-pyqt4/</loc>
+    <loc>http://mutse.github.io/2013/01/14/howto-build-py-app-with-autotools/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2013/03/04/upgrade-django-1.5-problem/</loc>
+    <loc>http://mutse.github.io/2012/05/13/westlake-nanjing-pre/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/2012/05/13/westlake-nanjing-pre/</loc>
+    <loc>http://mutse.github.io/2013/03/04/upgrade-django-1.5-problem/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -743,6 +743,20 @@
   </url>
   
   <url>
+    <loc>http://mutse.github.io/tags/objc/</loc>
+    <lastmod>2024-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mutse.github.io/tags/history/</loc>
+    <lastmod>2024-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mutse.github.io/tags/pyqt/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -751,13 +765,6 @@
   
   <url>
     <loc>http://mutse.github.io/tags/python/</loc>
-    <lastmod>2024-02-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mutse.github.io/tags/objc/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -778,28 +785,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/tags/history/</loc>
-    <lastmod>2024-02-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mutse.github.io/tags/deb/</loc>
-    <lastmod>2024-02-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mutse.github.io/tags/shell/</loc>
-    <lastmod>2024-02-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mutse.github.io/tags/linux/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -814,6 +800,20 @@
   
   <url>
     <loc>http://mutse.github.io/tags/django/</loc>
+    <lastmod>2024-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mutse.github.io/tags/linux/</loc>
+    <lastmod>2024-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mutse.github.io/tags/deb/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -932,14 +932,14 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/tags/%E8%AF%97%E6%AD%8C/</loc>
+    <loc>http://mutse.github.io/tags/photo/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mutse.github.io/tags/photo/</loc>
+    <loc>http://mutse.github.io/tags/%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -974,7 +974,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/tags/rpm/</loc>
+    <loc>http://mutse.github.io/tags/freedom/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -995,7 +995,7 @@
   </url>
   
   <url>
-    <loc>http://mutse.github.io/tags/freedom/</loc>
+    <loc>http://mutse.github.io/tags/rpm/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1003,6 +1003,13 @@
   
   <url>
     <loc>http://mutse.github.io/tags/scons/</loc>
+    <lastmod>2024-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mutse.github.io/tags/travel/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1017,13 +1024,6 @@
   
   <url>
     <loc>http://mutse.github.io/tags/%E9%99%88%E6%B8%A0%E7%8F%8D/</loc>
-    <lastmod>2024-02-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mutse.github.io/tags/travel/</loc>
     <lastmod>2024-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
