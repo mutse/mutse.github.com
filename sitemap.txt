@@ -1,3 +1,4 @@
+http://mutse.github.io/2024/03/27/suno-music/
 http://mutse.github.io/2024/03/10/dragon-ball/
 http://mutse.github.io/about/index.html
 http://mutse.github.io/2024/01/31/ai-photos/
@@ -79,10 +80,10 @@ http://mutse.github.io/2015/03/19/shortest-history-europe/
 http://mutse.github.io/2014/06/28/2014-essay/
 http://mutse.github.io/2011/05/15/howto-print-colorful-str-with-c/
 http://mutse.github.io/
-http://mutse.github.io/tags/webkit/
-http://mutse.github.io/tags/kugou/
 http://mutse.github.io/tags/ubuntu/
 http://mutse.github.io/tags/objc/
+http://mutse.github.io/tags/webkit/
+http://mutse.github.io/tags/kugou/
 http://mutse.github.io/tags/history/
 http://mutse.github.io/tags/pyqt/
 http://mutse.github.io/tags/python/
@@ -125,11 +126,11 @@ http://mutse.github.io/tags/%E8%A5%BF%E8%97%8F/
 http://mutse.github.io/tags/%E9%99%88%E6%B8%A0%E7%8F%8D/
 http://mutse.github.io/tags/westlake/
 http://mutse.github.io/categories/misc/
-http://mutse.github.io/categories/python/
 http://mutse.github.io/categories/ubuntu/
+http://mutse.github.io/categories/python/
 http://mutse.github.io/categories/pyqt/
 http://mutse.github.io/categories/c/
 http://mutse.github.io/categories/qt/
-http://mutse.github.io/categories/AIGC/
 http://mutse.github.io/categories/git/
+http://mutse.github.io/categories/AIGC/
 http://mutse.github.io/categories/touch/
