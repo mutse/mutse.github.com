@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.mutse.top/about/index.html</loc>
     
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mutse.top/2011/03/20/deb-one-key-packaging/</loc>
+    <loc>https://blog.mutse.top/2013/05/12/desgin-patterns-gossip/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mutse.top/2013/05/12/desgin-patterns-gossip/</loc>
+    <loc>https://blog.mutse.top/2011/03/20/deb-one-key-packaging/</loc>
     
     <lastmod>2023-09-22</lastmod>
     
@@ -733,7 +733,7 @@
 
   <url>
     <loc>https://blog.mutse.top/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -741,315 +741,315 @@
   
   <url>
     <loc>https://blog.mutse.top/tags/ubuntu/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/objc/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/webkit/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/kugou/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/history/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/pyqt/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/python/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/webkit/</loc>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/kugou/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/qt4/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/qt5/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.mutse.top/tags/shell/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/django/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/linux/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <loc>https://blog.mutse.top/tags/history/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/deb/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/shell/</loc>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/django/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/vte/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/Makefile/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/GTK/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/linux/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/pyqt5/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/pyqt4/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/qml/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/mysql/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/c/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/pyqt4/</loc>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/qml/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/clang/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/phone/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/unity/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/g/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/fcitx/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/matlab/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/g/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/film/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/song/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/photo/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/%E8%AF%97%E6%AD%8C/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/github/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/i18n/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/tags/l10n/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/android/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/freedom/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/i18n/</loc>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/tags/l10n/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/rpm/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/shoes/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/ruby/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/scons/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/travel/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/%E8%A5%BF%E8%97%8F/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/%E9%99%88%E6%B8%A0%E7%8F%8D/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/tags/westlake/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1058,63 +1058,63 @@
   
   <url>
     <loc>https://blog.mutse.top/categories/misc/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/ubuntu/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/categories/python/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/pyqt/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/categories/python/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/qt/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.mutse.top/categories/c/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/git/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mutse.top/categories/c/</loc>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/touch/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.mutse.top/categories/AIGC/</loc>
-    <lastmod>2024-09-17</lastmod>
+    <lastmod>2024-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
